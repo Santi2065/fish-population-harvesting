@@ -1,8 +1,10 @@
-# utilizo y0 (cantidad inicial de peces),x (la cantidad de pesca diaria),
-# alfa (la taza de reproduccion de los peces),beta (la capacidad de peces que tiene el lago)
-# y gama(proporcion de peces que son comidos por otros depredadores en el lago)
-# para predecir la poblacion de peces
-# y armo una tabla con los resultados que muestran la cantidad de peces por el dia
+'''
+ utilizo y0 (cantidad inicial de peces),x (la cantidad de pesca diaria),
+ alfa (la taza de reproduccion de los peces),beta (la capacidad de peces que tiene el lago)
+ y gama(proporcion de peces que son comidos por otros depredadores en el lago)
+ para predecir la poblacion de peces
+ y armo una tabla con los resultados que muestran la cantidad de peces por el dia
+'''
 
 y0 = int(input("Ingrese y0: "))
 if y0 < 0:
@@ -29,6 +31,3 @@ for i in range(n):
         print(f" {i}     | {int(y0)}  ")
     else:
         print(f"{i}     | {int(y0)}  ")
-
-
-
