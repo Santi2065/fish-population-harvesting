@@ -5,7 +5,6 @@
  para predecir la poblacion de peces
  y armo una tabla con los resultados que muestran la cantidad de peces por el dia
 '''
-
 y0 = int(input("Ingrese y0: "))
 if y0 < 0:
     print("y0 no puede ser negativo")

@@ -6,7 +6,6 @@ utilizo y0 (cantidad inicial de peces),x (la cantidad de pesca diaria),
 alfa (la taza de reproduccion de los peces),beta (la capacidad de peces que tiene el lago)
 y gama (proporcion de peces que son comidos por otros depredadores en el lago)
 '''
-
 BETA = 24487
 ALFA = 0.000082
 GAMA = 0.1

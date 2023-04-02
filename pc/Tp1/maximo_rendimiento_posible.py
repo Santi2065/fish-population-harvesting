@@ -6,7 +6,6 @@ utilizo y0 (cantidad inicial de peces),x (la cantidad de pesca diaria),
 alfa (la taza de reproduccion de los peces),beta (la capacidad de peces que tiene el lago)
 y gama (proporcion de peces que son comidos por otros depredadores en el lago)
 '''
-
 BETA = 24487
 # defino la cantidad inicial de peces como el 90% de la capacidad maxima del lago
 Y0 = BETA * 0.9
