@@ -4,7 +4,6 @@
  y gama(proporcion de peces que son comidos por otros depredadores en el lago)
  para predecir la poblacion de peces
  y armo una tabla con los resultados que muestran la cantidad de peces por el dia
-
  '''
 # pido los datos necesarios por la consola y los valido
 while True:
