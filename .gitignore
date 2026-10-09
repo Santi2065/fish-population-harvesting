@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+# compiled C lecture examples
+pc/Teoricas/c/c
+pc/Teoricas/Teorica 13 - c
+# LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
