@@ -1,18 +1,16 @@
 """Regenerates the figures and numbers shown in the README.
 
     pip install matplotlib
-    python docs/figures/make_figures.py      # run inside the git clone (uses `git log`)
+    python docs/figures/make_figures.py
 """
 import re
 import subprocess
 import sys
-from datetime import date
 from pathlib import Path
 
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 
@@ -29,49 +27,8 @@ def save(fig, name):
     plt.close(fig)
 
 
-def git(*args):
-    return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True).stdout
-
-
-# ---- Figure 1: when each piece of material entered the repository
-ROWS = [  # (label, path prefix, regex giving the number shown next to each dot)
-    ("Lectures", "pc/Teoricas/", r"Teorica (\d+)"),
-    ("Practice guides", "pc/Practicas/Guia", r"Guia(\d+)"),
-    ("Tutorials", "pc/Tutorial/", r"Tutorial(\d+)"),
-    ("Problem classes", "pc/Clase de Problemas/", r"problemas (\d+)"),
-    ("Assignments", "pc/Tp1/", None),
-    ("Art appreciation", "Apreciacion artistica/", None),
-]
-fig, ax = plt.subplots(figsize=(7.2, 2.9))
-for yi, (label, prefix, rx) in enumerate(ROWS[::-1]):
-    files = [f for f in git("ls-files", prefix + "*").splitlines() if f.endswith((".py", ".c", ".txt", ".tex"))]
-    groups = {}  # first-commit date -> numbers shown next to the dot
-    for f in files:
-        follow = ["--follow"] if (ROOT / f).stat().st_size else []  # --follow mismatches empty files
-        d = date.fromisoformat(git("log", *follow, "--diff-filter=A", "--format=%ad", "--date=short", "--", f).split()[-1])
-        m = re.search(rx, f) if rx else None
-        groups.setdefault(d, set()).update({int(m.group(1))} if m else set())
-    for k, (d, nums) in enumerate(sorted(groups.items())):
-        ax.plot(d, yi, "o", color=C[yi % len(C)], ms=4.2)
-        if nums:
-            ax.annotate(",".join(map(str, sorted(nums))), (d, yi), xytext=(0, 5 + 6 * (k % 2)),
-                        textcoords="offset points", ha="center", fontsize=7.5)
-tp2 = date.fromisoformat(git("log", "--diff-filter=A", "--format=%ad", "--date=short", "--", "TP_2_PC").split()[-1])
-ax.plot(tp2, 1, "s", color=C[1], ms=4.2)
-ax.annotate("TP 2 (submodule)", (tp2, 1), xytext=(-4, 6), textcoords="offset points", ha="right", fontsize=7.5)
-ax.annotate("TP 1", (date(2023, 3, 30), 1), xytext=(6, 6), textcoords="offset points", fontsize=7.5)
-ax.set_yticks(range(len(ROWS)), [r[0] for r in ROWS[::-1]])
-ax.set_ylim(-0.6, len(ROWS) - 0.2)
-ax.tick_params(axis="y", length=0, right=False)
-ax.tick_params(top=False)
-ax.xaxis.set_major_locator(mdates.MonthLocator())
-ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %Y"))
-ax.set_xlim(date(2023, 3, 22), date(2023, 6, 18))
-ax.set_xlabel("date the file was first committed")
-save(fig, "fig1-semester.svg")
-
-# ---- Figure 2: TP 1, harvested logistic model of the fish population of a lake
-# Same update rule and constants as pc/Tp1/*.py
+# ---- Figure 1: TP 1, harvested logistic model of the fish population of a lake
+# Same update rule and constants as the submitted scripts
 ALFA, BETA, GAMA, DIAS = 0.000082, 24487, 0.1, 90
 
 
@@ -98,7 +55,7 @@ def days_alive(y, x, n=5000):
 
 
 def run_original(name):  # output of the submitted scripts
-    out = subprocess.run([sys.executable, "-I", ROOT / "pc/Tp1" / name], capture_output=True, text=True).stdout
+    out = subprocess.run([sys.executable, "-I", ROOT / name], capture_output=True, text=True).stdout
     return int(re.search(r"\d+", out).group())
 
 
@@ -145,4 +102,4 @@ ax.yaxis.set_minor_formatter(plt.NullFormatter())
 ax.set_title("(b) Start at $0.9\\,\\beta$")
 ax.legend(loc="upper right")
 fig.tight_layout()
-save(fig, "fig2-fish-model.svg")
+save(fig, "fig1-fish-model.svg")

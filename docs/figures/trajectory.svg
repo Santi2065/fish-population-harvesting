@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="456.52679pt" height="94.01013pt" viewBox="0 0 456.52679 94.01013" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="419.04pt" height="94.01013pt" viewBox="0 0 419.04 94.01013" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -21,8 +21,8 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 94.01013 
-L 456.52679 94.01013 
-L 456.52679 0 
+L 419.04 94.01013 
+L 419.04 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
@@ -1029,13 +1029,13 @@ z
     </g>
    </g>
    <g id="line2d_35">
-    <path d="M 128.875989 42.38784 
-L 128.875989 18.98208 
+    <path d="M 113.955728 42.38784 
+L 113.955728 18.98208 
 " clip-path="url(#p8eabf06597)" style="fill: none; stroke: #1b4f8a; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="text_8">
-    <!-- Milestone 4 of 23  ·  Computational Thinking (course notes)  (1C 2023) -->
-    <g style="fill: #1b4f8a" transform="translate(124.19529 17.078045) scale(0.088 -0.088)">
+    <!-- Milestone 3 of 23  ·  Computational Thinking  (1C 2023) -->
+    <g style="fill: #1b4f8a" transform="translate(109.275029 17.078045) scale(0.088 -0.088)">
      <defs>
       <path id="LMRoman10-Bold-4a" d="M 6726 0 
 L 6726 301 
@@ -1221,29 +1221,29 @@ L 3936 0
 z
 " transform="scale(0.015625)"/>
       <path id="LMRoman10-Bold-67" transform="scale(0.015625)"/>
-      <path id="LMRoman10-Bold-39" d="M 3469 0 
-L 3469 301 
-L 2848 301 
-L 2848 998 
-L 3469 998 
-L 3469 1299 
-L 2848 1299 
-L 2848 3994 
-C 2848 4166 2835 4198 2656 4198 
-C 2522 4198 2515 4192 2438 4096 
-L 205 1299 
-L 205 998 
-L 2048 998 
-L 2048 301 
-L 1331 301 
-L 1331 0 
-C 1574 19 2157 19 2432 19 
-C 2688 19 3245 19 3469 0 
-z
-M 2118 1299 
-L 538 1299 
-L 2118 3283 
-L 2118 1299 
+      <path id="LMRoman10-Bold-6a" d="M 3366 1152 
+C 3366 1504 3181 2054 2253 2253 
+C 2694 2387 3162 2752 3162 3302 
+C 3162 3795 2675 4192 1773 4192 
+C 1011 4192 512 3782 512 3270 
+C 512 2995 710 2822 954 2822 
+C 1242 2822 1402 3027 1402 3264 
+C 1402 3635 1056 3706 1030 3712 
+C 1254 3891 1536 3942 1734 3942 
+C 2266 3942 2285 3533 2285 3322 
+C 2285 3238 2278 2400 1613 2362 
+C 1350 2349 1338 2342 1306 2336 
+C 1242 2330 1229 2266 1229 2227 
+C 1229 2112 1293 2112 1408 2112 
+L 1690 2112 
+C 2387 2112 2387 1485 2387 1158 
+C 2387 858 2387 205 1722 205 
+C 1555 205 1222 230 915 422 
+C 1126 480 1286 640 1286 902 
+C 1286 1190 1082 1389 800 1389 
+C 531 1389 307 1216 307 890 
+C 307 314 928 -70 1754 -70 
+C 2899 -70 3366 570 3366 1152 
 z
 " transform="scale(0.015625)"/>
       <path id="LMRoman10-Bold-37" d="M 2797 3923 
@@ -1292,31 +1292,6 @@ C 365 256 365 243 365 115
 L 365 0 
 L 3110 0 
 L 3309 1421 
-z
-" transform="scale(0.015625)"/>
-      <path id="LMRoman10-Bold-6a" d="M 3366 1152 
-C 3366 1504 3181 2054 2253 2253 
-C 2694 2387 3162 2752 3162 3302 
-C 3162 3795 2675 4192 1773 4192 
-C 1011 4192 512 3782 512 3270 
-C 512 2995 710 2822 954 2822 
-C 1242 2822 1402 3027 1402 3264 
-C 1402 3635 1056 3706 1030 3712 
-C 1254 3891 1536 3942 1734 3942 
-C 2266 3942 2285 3533 2285 3322 
-C 2285 3238 2278 2400 1613 2362 
-C 1350 2349 1338 2342 1306 2336 
-C 1242 2330 1229 2266 1229 2227 
-C 1229 2112 1293 2112 1408 2112 
-L 1690 2112 
-C 2387 2112 2387 1485 2387 1158 
-C 2387 858 2387 205 1722 205 
-C 1555 205 1222 230 915 422 
-C 1126 480 1286 640 1286 902 
-C 1286 1190 1082 1389 800 1389 
-C 531 1389 307 1216 307 890 
-C 307 314 928 -70 1754 -70 
-C 2899 -70 3366 570 3366 1152 
 z
 " transform="scale(0.015625)"/>
       <path id="LMRoman10-Bold-1e6" d="M 3360 2195 
@@ -1595,56 +1570,6 @@ C 1626 -1165 2208 -1594 2330 -1594
 C 2381 -1594 2445 -1574 2445 -1504 
 z
 " transform="scale(0.015625)"/>
-      <path id="LMRoman10-Bold-2b" d="M 3059 749 
-C 3059 838 2970 838 2906 838 
-C 2790 838 2784 826 2752 742 
-C 2586 339 2278 218 1952 218 
-C 1062 218 1062 1158 1062 1453 
-C 1062 1811 1062 2643 1888 2643 
-C 2112 2643 2221 2624 2304 2605 
-C 2189 2502 2176 2368 2176 2310 
-C 2176 2029 2400 1907 2573 1907 
-C 2771 1907 2976 2042 2976 2310 
-C 2976 2861 2234 2899 1862 2899 
-C 717 2899 243 2163 243 1421 
-C 243 570 845 -38 1830 -38 
-C 2867 -38 3059 704 3059 749 
-z
-" transform="scale(0.015625)"/>
-      <path id="LMRoman10-Bold-60" d="M 2829 2355 
-C 2829 2694 2483 2880 2150 2880 
-C 1702 2880 1446 2560 1299 2157 
-L 1299 2880 
-L 237 2829 
-L 237 2528 
-C 634 2528 678 2528 678 2278 
-L 678 301 
-L 237 301 
-L 237 0 
-L 1043 19 
-C 1286 19 1696 19 1926 0 
-L 1926 301 
-L 1370 301 
-L 1370 1421 
-C 1370 1869 1530 2650 2170 2650 
-C 2170 2650 2048 2541 2048 2355 
-C 2048 2093 2253 1965 2438 1965 
-C 2624 1965 2829 2099 2829 2355 
-z
-" transform="scale(0.015625)"/>
-      <path id="LMRoman10-Bold-56" d="M 2163 1600 
-C 2163 2400 1952 3104 1651 3635 
-C 1229 4371 646 4800 525 4800 
-C 474 4800 410 4781 410 4710 
-C 410 4678 410 4666 518 4563 
-C 1325 3744 1542 2611 1542 1606 
-C 1542 346 1216 -659 512 -1370 
-C 416 -1466 410 -1472 410 -1504 
-C 410 -1574 474 -1594 525 -1594 
-C 634 -1594 902 -1357 1018 -1248 
-C 2016 -256 2163 922 2163 1600 
-z
-" transform="scale(0.015625)"/>
       <path id="LMRoman10-Bold-52" d="M 3162 0 
 L 3162 301 
 L 2266 301 
@@ -1680,6 +1605,19 @@ C 2074 3962 2336 3840 2458 3558
 C 2566 3322 2566 2643 2566 2118 
 z
 " transform="scale(0.015625)"/>
+      <path id="LMRoman10-Bold-56" d="M 2163 1600 
+C 2163 2400 1952 3104 1651 3635 
+C 1229 4371 646 4800 525 4800 
+C 474 4800 410 4781 410 4710 
+C 410 4678 410 4666 518 4563 
+C 1325 3744 1542 2611 1542 1606 
+C 1542 346 1216 -659 512 -1370 
+C 416 -1466 410 -1472 410 -1504 
+C 410 -1574 474 -1594 525 -1594 
+C 634 -1594 902 -1357 1018 -1248 
+C 2016 -256 2163 922 2163 1600 
+z
+" transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#LMRoman10-Bold-4a"/>
      <use xlink:href="#LMRoman10-Bold-42" transform="translate(109.203125 0)"/>
@@ -1691,7 +1629,7 @@ z
      <use xlink:href="#LMRoman10-Bold-4d" transform="translate(373.328125 0)"/>
      <use xlink:href="#LMRoman10-Bold-32" transform="translate(437.234375 0)"/>
      <use xlink:href="#LMRoman10-Bold-67" transform="translate(489.9375 0)"/>
-     <use xlink:href="#LMRoman10-Bold-39" transform="translate(528.234375 0)"/>
+     <use xlink:href="#LMRoman10-Bold-6a" transform="translate(528.234375 0)"/>
      <use xlink:href="#LMRoman10-Bold-67" transform="translate(585.734375 0)"/>
      <use xlink:href="#LMRoman10-Bold-51" transform="translate(624.03125 0)"/>
      <use xlink:href="#LMRoman10-Bold-37" transform="translate(681.53125 0)"/>
@@ -1726,31 +1664,16 @@ z
      <use xlink:href="#LMRoman10-Bold-4d" transform="translate(2233.78125 0)"/>
      <use xlink:href="#LMRoman10-Bold-3b" transform="translate(2297.6875 0)"/>
      <use xlink:href="#LMRoman10-Bold-67" transform="translate(2355.1875 0)"/>
-     <use xlink:href="#LMRoman10-Bold-55" transform="translate(2393.484375 0)"/>
-     <use xlink:href="#LMRoman10-Bold-2b" transform="translate(2438.1875 0)"/>
-     <use xlink:href="#LMRoman10-Bold-51" transform="translate(2489.28125 0)"/>
-     <use xlink:href="#LMRoman10-Bold-6d" transform="translate(2546.78125 0)"/>
-     <use xlink:href="#LMRoman10-Bold-60" transform="translate(2610.6875 0)"/>
-     <use xlink:href="#LMRoman10-Bold-62" transform="translate(2658.09375 0)"/>
-     <use xlink:href="#LMRoman10-Bold-32" transform="translate(2703.5 0)"/>
-     <use xlink:href="#LMRoman10-Bold-67" transform="translate(2756.203125 0)"/>
-     <use xlink:href="#LMRoman10-Bold-4d" transform="translate(2794.5 0)"/>
-     <use xlink:href="#LMRoman10-Bold-51" transform="translate(2858.40625 0)"/>
-     <use xlink:href="#LMRoman10-Bold-69" transform="translate(2915.90625 0)"/>
-     <use xlink:href="#LMRoman10-Bold-32" transform="translate(2960.609375 0)"/>
-     <use xlink:href="#LMRoman10-Bold-62" transform="translate(3013.3125 0)"/>
-     <use xlink:href="#LMRoman10-Bold-56" transform="translate(3058.71875 0)"/>
-     <use xlink:href="#LMRoman10-Bold-67" transform="translate(3103.421875 0)"/>
-     <use xlink:href="#LMRoman10-Bold-67" transform="translate(3141.71875 0)"/>
-     <use xlink:href="#LMRoman10-Bold-55" transform="translate(3180.015625 0)"/>
-     <use xlink:href="#LMRoman10-Bold-52" transform="translate(3224.71875 0)"/>
-     <use xlink:href="#LMRoman10-Bold-2a" transform="translate(3282.21875 0)"/>
-     <use xlink:href="#LMRoman10-Bold-67" transform="translate(3365.3125 0)"/>
-     <use xlink:href="#LMRoman10-Bold-6b" transform="translate(3403.609375 0)"/>
-     <use xlink:href="#LMRoman10-Bold-79" transform="translate(3461.109375 0)"/>
-     <use xlink:href="#LMRoman10-Bold-6b" transform="translate(3518.609375 0)"/>
-     <use xlink:href="#LMRoman10-Bold-6a" transform="translate(3576.109375 0)"/>
-     <use xlink:href="#LMRoman10-Bold-56" transform="translate(3633.609375 0)"/>
+     <use xlink:href="#LMRoman10-Bold-67" transform="translate(2393.484375 0)"/>
+     <use xlink:href="#LMRoman10-Bold-55" transform="translate(2431.78125 0)"/>
+     <use xlink:href="#LMRoman10-Bold-52" transform="translate(2476.484375 0)"/>
+     <use xlink:href="#LMRoman10-Bold-2a" transform="translate(2533.984375 0)"/>
+     <use xlink:href="#LMRoman10-Bold-67" transform="translate(2617.078125 0)"/>
+     <use xlink:href="#LMRoman10-Bold-6b" transform="translate(2655.375 0)"/>
+     <use xlink:href="#LMRoman10-Bold-79" transform="translate(2712.875 0)"/>
+     <use xlink:href="#LMRoman10-Bold-6b" transform="translate(2770.375 0)"/>
+     <use xlink:href="#LMRoman10-Bold-6a" transform="translate(2827.875 0)"/>
+     <use xlink:href="#LMRoman10-Bold-56" transform="translate(2885.375 0)"/>
     </g>
    </g>
    <g id="line2d_36">
@@ -1768,7 +1691,7 @@ z
 " style="stroke: #ffffff; stroke-width: 1.2"/>
     </defs>
     <g clip-path="url(#p8eabf06597)">
-     <use xlink:href="#m0ac3b49386" x="128.875989" y="45.65376" style="fill: #1b4f8a; stroke: #ffffff; stroke-width: 1.2"/>
+     <use xlink:href="#m0ac3b49386" x="113.955728" y="45.65376" style="fill: #1b4f8a; stroke: #ffffff; stroke-width: 1.2"/>
     </g>
    </g>
   </g>
